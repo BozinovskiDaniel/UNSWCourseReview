@@ -1,0 +1,24 @@
+.Home {
+  height: 100%;
+  width: auto;
+  background-color: #eeeeee;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+
+  .Faculties {
+    .faculty {
+      background-color: #faebd7;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      margin: 10px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #faebf9;
+      }
+    }
+  }
+}
